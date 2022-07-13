@@ -54,3 +54,6 @@ Setting variables of each data type:
 	x = memoryview(bytes(5))  (memoryview)
 
 	x = None  (NoneType)
+	
+Link to Repl.it project demonstrating data types in python:
+https://replit.com/@PythonicPelican/DataTypes#main.py

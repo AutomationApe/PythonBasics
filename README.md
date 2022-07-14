@@ -74,3 +74,36 @@ Basic Math Functions:
 	
 Link to Repl.it project demonstrating basic math functions in python:
 https://replit.com/@PythonicPelican/BasicMathFunctions#main.py
+
+
+Variables:
+	
+	Variables are symbolic names for an object in memory. This can be an integer value being stored or a string message, etc.
+	
+	Variables in python typically follow snake_case; ex: first_name = "John"
+	
+	Variables must start with a lowercase letter or an underscore
+	
+	Variables can contain letters, numbers, and underscores
+	
+	Variables are case sensitive; ex: first_name != first_Name
+	
+	Variables should not overwrite keywords; ex: Print = "blahblahblah" 
+	
+	Variables can be created as constants by writing them in all caps; ex: PI = 3.14
+	
+
+Augmented Assignment Operators:
+
+	Augmented Assignment Operators are useful for quickly completing addition, subtraction, multiplication, and division operations.
+	
+	Addition - "+="; ex: number += 5
+	
+	Subtraction - "-="; ex: number -= 5
+	
+	Multiplication - "*="; ex: number *= 5
+	
+	Division - "/="; ex: number /= 5
+	
+Link to Repl.it project demonstration augmented assignment in python:
+https://replit.com/@PythonicPelican/AugmentedAssignment#main.py

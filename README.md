@@ -107,3 +107,85 @@ Augmented Assignment Operators:
 	
 Link to Repl.it project demonstration augmented assignment in python:
 https://replit.com/@PythonicPelican/AugmentedAssignment#main.py
+
+
+
+Strings:
+
+	Strings are a data type that hold multiple characters. A string of text.
+	
+	Strings can represent words, whole sentences, or even paragraphs through the use of multiline strings (example in Repl.it)
+	
+	Strings can also be added to eachother through string concatenation (example in Repl.it)
+	
+Link to Repl.it project demonstrating multiline strings and string concatenation:
+https://replit.com/@PythonicPelican/Working-with-strings#main.py
+
+
+Type conversion:
+
+	You can change the data type of a value through the use of type conversion; ex: text = str(5)
+
+Link to Repl.it project demonstrating basic type conversion:
+https://replit.com/@PythonicPelican/TypeConversion#main.py
+
+
+Escape characters:
+
+	In programming, there are escape characters that can help with formatting strings.
+	
+	\n - new line
+	
+	\t - inserts a tab
+	
+	\' or \" - allows for single or double quotes to be recognized as a character in the string
+	
+	\\ - allows for backslashes to be recognized as a character in the string
+
+Link to Repl.it project demonstrating common escape characters:
+https://replit.com/@PythonicPelican/EscapeCharacters#main.py
+
+Formatting strings with variables:
+	
+	Variables in strings can be formatted in a variety of ways
+	
+	You could use f-strings; ex: print(f"{name}")
+	
+	You could use the format() method (example in Repl.it)
+	
+	You could use concatenation; ex: message = name + " is a great person!"
+
+Link to Repl.it project demonstrating some string formatting techniques:
+https://replit.com/@PythonicPelican/FormattingStrings#main.py
+
+String index:
+
+	Strings are essentially an array (collection) of characters
+	
+	You can call individual characters from a string using its index. In Python, the first letter has an index of [0]
+	
+	For example, the word "hello" would have h at index [0], e at index[1], l at index [2], and so on.
+	
+Link to Repl.it project demonstrating string index usage:
+https://replit.com/@PythonicPelican/StringIndex#main.py
+
+Common built-in functions:
+
+	Python comes equipped with built-in functions that can do a number of different things.
+	
+	For example, the len() function will iterate over an object and return the number of items inside of it
+	
+To find out more about built in functions:
+https://docs.python.org/3/library/functions.html
+
+
+Booleans:
+
+	Booleans are data types that are based on boolean algebra and essentially boil down to true or false.
+	
+	Booleans are expressions that either equal 0 (false) or 1 (true) when computed and are powerful tools for conditions.
+	
+	For example, you can set code to be executed only when a condition equals true; if (today_is_birthday == true)
+	
+For more information on booleans:
+https://www.w3schools.com/python/python_booleans.asp

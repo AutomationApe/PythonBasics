@@ -189,3 +189,39 @@ Booleans:
 	
 For more information on booleans:
 https://www.w3schools.com/python/python_booleans.asp
+
+
+Lists:
+
+	Lists are ordered sequences of objects of any type. They are a kind of array
+	
+	Lists are useful for storing a collection of items; ex: fruits = ["apple", "banana", "cherry"]
+	
+	Lists are one of many data structures, which are important concepts as they allow for us to store data in a container and use the data within the container in many different ways.
+	
+	You can access items within a list using their index, ex: fruits[0] would produce "apple", fruits[1] would produce "banana"
+	
+	You can slice through lists
+	
+	Unlike with strings (which are immutable and cannot be changed after declaration), lists are mutable.
+	ex: fruits[2] = "pear" would make the list fruits now contain "apple", "banana", and "pear"
+	
+For more information on lists:
+https://www.w3schools.com/python/python_lists.asp
+
+Matrix:
+
+	A matrix is a 2-dimensional list, in other words, it is a list that contains a list.
+	ex:
+	
+	food = [
+	         ["hotdog", "burger", "pizza"],
+		 ["apple", "banana", "pear"],
+		 ["carrot", "brocolli", "peas"]
+	       ]
+	      
+	In order to access an object from the list, you can call it like this: food[0][1] -> produces "burger"
+	The first index selects the first list, and the second index calls the item within the first list.
+	
+Link to Repl.it project demonstrating matrices:
+https://replit.com/@PythonicPelican/FoodMatrix#main.py

@@ -57,3 +57,20 @@ Setting variables of each data type:
 	
 Link to Repl.it project demonstrating data types in python:
 https://replit.com/@PythonicPelican/DataTypes#main.py
+
+Basic Math Functions:
+
+	math.ceil() - rounds a number up to the nearest integer
+	
+	math.fabs() - returns the absolute value of a number
+	
+	math.floor() - rounds a number down to the nearest integer
+	
+	math.gcd() - returns the greatest commond divisor of two integers
+	
+	math.pow() - returns the value of x to the power of y
+	
+	math.sqrt() - returns the square root of a number
+	
+Link to Repl.it project demonstrating basic math functions in python:
+https://replit.com/@PythonicPelican/BasicMathFunctions#main.py

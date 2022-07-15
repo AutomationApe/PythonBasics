@@ -225,3 +225,195 @@ Matrix:
 	
 Link to Repl.it project demonstrating matrices:
 https://replit.com/@PythonicPelican/FoodMatrix#main.py
+
+List Methods:
+
+	There are many methods that can be used to alter lists.
+	
+	For example, the append() method is used to add an item to a list.
+	ex: fruit.append("watermelon") would produce -> ["apple", "banana", "pear", "watermelon"]
+	
+	Another example would be the insert() method, which adds an item to a list at a specific index.
+	ex: fruit.insert(2, "mango") would produce -> ["apple", "banana", "mango", "pear", "watermelon"]
+	
+For more information on list methods:
+https://www.w3schools.com/python/python_lists_methods.asp
+
+
+List Unpacking:
+
+	List unpacking is a useful technique that enables us to assign variables to items in a list in one declaration.
+	ex: a, b, c = [1, 2, 3] -> print(a) would output: 1, print(b) would output: 2, etc.
+	
+	You can also slice a list through unpacking.
+	ex: a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9] -> print(a) outputs: 1, print(c) outputs: 3, print(other) outputs: [4, 5, 6, 7, 8], and print(d) outputs: 9
+	
+For more information on unpacking lists:
+https://www.pythontutorial.net/python-basics/python-unpack-list/
+
+Dictionaries:
+
+	A data type in Python which is also a data structure. Enables us to store data as a set, using a key-value pair. 
+	ex: dictionary = {
+	                    'a': 1,
+			    'b': 2
+			 }
+			 
+	dicts can be accessed as follows: print(dictionary['b']) -> outputs: 2
+	
+	What if we store a list in the dict?
+	ex: my_list = [
+			{
+		          'a': [1, 2, 3],
+			  'b': "hello",
+			  'c': True
+			}
+		       ]
+	We could access the list as follows: print(my_list[0][1]) -> outputs: 2
+	
+	*keys MUST be IMMUTABLE and UNIQUE*
+	
+For more information on dictionaries: 
+https://www.w3schools.com/python/python_dictionaries.asp
+
+Understanding data structures:
+
+	There are many reasons that can help decide whether you should use a dictionary or a list and practice helps the process
+	of making these decisions.
+	
+	However, there are things to consider such as the fact that lists allow for duplicate entries while dictionaries do not. 
+	Dictionaries will instead overwrite values for keywords. Lists on the other hand will simply store the duplicate.
+	
+	Food for thought...
+	
+Dictionary Methods:
+
+	Like lists, there are useful methods that you can use to perform actions in Python.
+	
+	For example, the get() method allows you to search for a key in a dictionary and set a default value if it
+	doesn't exist.
+	ex:
+		user = { 
+			 'basket': [1, 2, 3],
+			 'greet': 'hello',
+			 'age': 20
+		       }
+		 
+		print(user.get('age', 55)) -> outputs 55 if 'age' does not exist in the dictionary, otherwise outputs the value of 'age'
+	
+	Here are a few other useful methods for working in the dictionary:
+	
+	keys() - checks the keys in the dict
+	
+	values() - checks the values in the dict
+	
+	items() - checks the key-value pairs in the dict
+	
+	clear() - erases all content in the dictionary
+	
+	pop() - removes a key and returns the value that it was associated with
+	
+	popItem() - removes the last key-value pair in a dict
+	
+	update() - updates a key-value pair
+	
+For more information on dictionary methods:
+https://www.w3schools.com/python/python_dictionaries_methods.asp
+
+Tuples:
+
+	Another data type in Python, that is also a data structure.
+	Tuples are like lists, except they are immutable.
+	
+	my_tuple = (1, 2, 3, 4, 5)
+	
+	Once this has been set, you cannot modify it outside of its declaration. It cannot be sorted, reversed, etc. 
+	
+	my_tuple[1] = z -> errors out as a tuple is immutable and cannot be altered.
+	
+	You can access tuples through the index of their items just like lists.
+	
+	Tuples are very useful for lists that will not change.
+	
+	Real world example for tuples could be coordinates for a location as the location does not change.
+	
+	Tuples have few methods, primarily count() and index().
+	count() is used to return how many times an item appears in a tuple.
+	index() is used to find the index of an item in the tuple.
+	
+	*when using items() method on a dict, the key-value pairs are returned as tuples*
+
+Sets:
+
+	Sets are unordered collections of unique objects.
+	Sets are another data structure.
+	
+	my_set = {1, 2, 3, 4, 5, 5}
+	
+	print(my_set) -> outputs: {1, 2, 3, 4, 5}
+	
+	Now where is the other 5? Remember, sets care about UNIQUE values, so the duplicate 5 is omitted.
+	
+	Sets are powerful as they can be used to return a list of only unique values.
+	ex: 
+	
+		my_list = [1,1,2,2,3,3,4,4,5,5,6,5]
+		
+		print(set(my_list)) -> outputs: {1, 2, 3, 4, 5, 6}
+		
+	A real world example of sets' usefulness is a website collecting usernames or emails, it needs to make sure there are no duplicates,
+	therefore saving the usernames/emails to a set would ensure we are checking for unique values and eliminating duplicates.
+	
+For more information on sets:
+https://www.w3schools.com/python/python_sets.asp
+
+Set methods:
+
+	The real power of sets comes out when used with methods.
+	These methods include:
+	
+	difference()
+	discard()
+	difference_update()
+	intersection()
+	isdisjoint()
+	issubset()
+	issuperset()
+	union()
+	
+	ex:
+	
+	my_set = {1,2,3,4,5}
+	your_set = {4,5,6,7,8,9,10}
+	
+	print(my_set.difference(your_set)) -> outputs: {1,2,3} as that is what is different between the two sets
+	
+	my_set.discard(5) -> removes 5 from my_set
+	
+	print(my_set.difference_update(your_set)) -> outputs: {1,2,3} as it alters my_set to consist of only the items that differ from your_set 
+	
+	print(my_set.intersection(your_set)) -> outputs: {4,5} as these are the items that are simlar in both sets
+	
+	print(my_set.isdisjoint(your_set)) -> outputs: False as the two sets have common items (4 and 5)
+	
+	issubset() -> outputs: True if the entirety of a set can be found within another
+	
+	issuperset() -> outputs: True if the set invoking the method encompasses the target set
+	
+	print(my_set.union(your_set)) -> outputs: {1,2,3,4,5,6,7,8,9,10} as this creates a new set consisting of both sets combined with only unique values
+	
+	*shorthands exist for intersection() and union().
+	*union() -> print(my_set | your_set) -> outputs: {1,2,3,4,5,6,7,8,9,10}
+	*intersection() -> print(my_set & your_set) -> outputs: {4,5}
+	
+For more information on set methods:
+https://www.w3schools.com/python/python_sets_methods.asp
+	
+	
+	
+	
+	
+	
+
+
+

@@ -56,7 +56,7 @@ Setting variables of each data type:
 	x = None  (NoneType)
 	
 Link to Repl.it project demonstrating data types in python:
-https://replit.com/@PythonicPelican/DataTypes#main.py
+https://replit.com/@AutomationApe/DataTypes#main.py
 
 Basic Math Functions:
 
@@ -73,7 +73,7 @@ Basic Math Functions:
 	math.sqrt() - returns the square root of a number
 	
 Link to Repl.it project demonstrating basic math functions in python:
-https://replit.com/@PythonicPelican/BasicMathFunctions#main.py
+https://replit.com/@AutomationApe/BasicMathFunctions#main.py
 
 
 Variables:
@@ -106,7 +106,7 @@ Augmented Assignment Operators:
 	Division - "/="; ex: number /= 5
 	
 Link to Repl.it project demonstration augmented assignment in python:
-https://replit.com/@PythonicPelican/AugmentedAssignment#main.py
+https://replit.com/@AutomationApe/AugmentedAssignment#main.py
 
 
 
@@ -119,7 +119,7 @@ Strings:
 	Strings can also be added to eachother through string concatenation (example in Repl.it)
 	
 Link to Repl.it project demonstrating multiline strings and string concatenation:
-https://replit.com/@PythonicPelican/Working-with-strings#main.py
+https://replit.com/@AutomationApe/Working-with-strings#main.py
 
 
 Type conversion:
@@ -127,7 +127,7 @@ Type conversion:
 	You can change the data type of a value through the use of type conversion; ex: text = str(5)
 
 Link to Repl.it project demonstrating basic type conversion:
-https://replit.com/@PythonicPelican/TypeConversion#main.py
+https://replit.com/@AutomationApe/TypeConversion#main.py
 
 
 Escape characters:
@@ -143,7 +143,7 @@ Escape characters:
 	\\ - allows for backslashes to be recognized as a character in the string
 
 Link to Repl.it project demonstrating common escape characters:
-https://replit.com/@PythonicPelican/EscapeCharacters#main.py
+https://replit.com/@AutomationApe/EscapeCharacters#main.py
 
 Formatting strings with variables:
 	
@@ -156,7 +156,7 @@ Formatting strings with variables:
 	You could use concatenation; ex: message = name + " is a great person!"
 
 Link to Repl.it project demonstrating some string formatting techniques:
-https://replit.com/@PythonicPelican/FormattingStrings#main.py
+https://replit.com/@AutomationApe/FormattingStrings#main.py
 
 String index:
 
@@ -167,7 +167,7 @@ String index:
 	For example, the word "hello" would have h at index [0], e at index[1], l at index [2], and so on.
 	
 Link to Repl.it project demonstrating string index usage:
-https://replit.com/@PythonicPelican/StringIndex#main.py
+https://replit.com/@AutomationApe/StringIndex#main.py
 
 Common built-in functions:
 
@@ -224,7 +224,7 @@ Matrix:
 	The first index selects the first list, and the second index calls the item within the first list.
 	
 Link to Repl.it project demonstrating matrices:
-https://replit.com/@PythonicPelican/FoodMatrix#main.py
+https://replit.com/@AutomationApe/FoodMatrix#main.py
 
 List Methods:
 
